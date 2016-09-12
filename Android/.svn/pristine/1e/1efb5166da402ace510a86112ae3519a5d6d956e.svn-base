@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ap_background_list.9.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/ap_background_list.9.png"
+    },
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/head.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/head.png"
+    },
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/two_status_circle.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/two_status_circle.png"
+    },
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/gg_bs_btn_checkbox_dark_on.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/gg_bs_btn_checkbox_dark_on.png"
+    },
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/one_status_circle.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/one_status_circle.png"
+    },
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/small_circle.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/small_circle.png"
+    },
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_pulltorefresh_arrow.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/ic_pulltorefresh_arrow.png"
+    },
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/list_separator.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/list_separator.png"
+    },
+    {
+        "merged": "/Users/kiss/Desktop/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/gg_bs_btn_checkbox_dark_off.png",
+        "source": "/Users/kiss/Desktop/Android/app/src/main/res/mipmap-xhdpi/gg_bs_btn_checkbox_dark_off.png"
+    }
+]

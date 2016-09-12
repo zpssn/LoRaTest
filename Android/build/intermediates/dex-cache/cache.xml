@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Lora_Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\Lora_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_b3a5e9ad18fd54e23a0a85496475e07ae889ded7\classes.dex" />
+    </item>
+    <item
+        jar="E:\Lora_Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\Lora_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_7c52615fe049abf6108d47e876fbc29385003a75\classes.dex" />
+    </item>
+    <item
+        jar="E:\Lora_Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\Lora_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_75dd83d1e62f9e1740d5564ad312dfc0391fa588\classes.dex" />
+    </item>
+    <item
+        jar="E:\Lora_Android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7faa32a4a3339468759e9627b5078390447b4d14">
+        <dex dex="E:\Lora_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5bcb2e349dda5db016ca254eef8681f399638ffa\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\kisss\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\Lora_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_9a3256242a6e2fb9bbc51e3b50e44ed24144d746\classes.dex" />
+    </item>
+    <item
+        jar="E:\Lora_Android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\Lora_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_4813c8acb362b4c0eac324f0346b1e8a6f4579b1\classes.dex" />
+    </item>
+    <item
+        jar="E:\Lora_Android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\Lora_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_b8bada39c219254f8d81d28a2a4a39991b038cd3\classes.dex" />
+    </item>
+    <item
+        jar="E:\Lora_Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="244167122d5c8ad5853dc73857292760a35e1963">
+        <dex dex="E:\Lora_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e85ea9bdf7b558bd613762db3388bd6dc57e06e7\classes.dex" />
+    </item>
+
+</items>
