@@ -54,6 +54,7 @@ public class TestActivity extends Activity {
 
     private Context mContext;
     private boolean isConnecting = false;
+    private boolean isSending = false;
 
     private Thread mThreadClient = null;
     private Thread mThreadServer = null;
@@ -131,7 +132,31 @@ public class TestActivity extends Activity {
 
         StartMouseButton = (Button)findViewById(R.id.StartMouse);
         StartMouseButton.setOnClickListener(StartMouseClickListenerServer);
+        timer.schedule(task,0,3000);
     }
+    private Handler handler1 = new Handler(){
+      public void handleMessage(Message msg2){
+          super.handleMessage(msg2);
+          if( isConnecting && mSocketClient!=null && msg2.what == 1){
+              mPrintWriterClient.print("heartbeat"+"\n");//发送给服务器
+              mPrintWriterClient.flush();
+          }
+
+      }
+    };
+
+    private Timer timer = new Timer(true);
+    private TimerTask task =new TimerTask(){
+      public void run(){
+          if(!isSending)
+          {
+              Message msg2 = new Message();
+              msg2.what = 1;
+              handler1.sendMessage(msg2);
+          }
+      }
+    };
+
 
     private OnClickListener StartClickListener = new OnClickListener() {
         @Override
@@ -163,9 +188,9 @@ public class TestActivity extends Activity {
                 isConnecting = true;
                 startButton.setText("停止连接");
                 IPText.setEnabled(false);
-
                 mThreadClient = new Thread(mRunnable);
                 mThreadClient.start();
+
             }
         }
     };
@@ -186,9 +211,17 @@ public class TestActivity extends Activity {
                 {
                     try
                     {
+                        isSending = true;
                         for(int i=0;i<time;i++)
                         {
-
+                            if(sendtimes < time-1){
+                                isSending = true;
+                                Log.e("true","true");
+                            }
+                            else{
+                                isSending = false;
+                                Log.e("true","false");
+                            }
                             SimpleDateFormat formatter = new SimpleDateFormat("yyyy:MM:dd:HH:mm:ss:SSS");
                             String str = formatter.format(new Date());
                             sendtimes++;
@@ -197,13 +230,17 @@ public class TestActivity extends Activity {
                             recvText.append("send: "+ msgText  + " time:"+str+"\n");	// 刷新
                             sendTimes.setText(String.valueOf(sendtimes));//显示发送次数
                             delayms();
+
                         }
+
+
                     }
                     catch (Exception e)
                     {
                         // TODO: handle exception
                         Toast.makeText(mContext, "发送异常：" + e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
+
                 }
             }
             else
