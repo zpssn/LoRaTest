@@ -1,3 +1,6 @@
+# LoRaTest forth time
+更新android studio 2.2之后的更新工程
+
 # LoRaTest third time
 新增 heartbeat 心跳每隔 3秒一次
 private Handler handler1 = new Handler(){
