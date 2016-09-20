@@ -25,7 +25,7 @@ private Handler handler1 = new Handler(){
          }
      }
    };
-   在oncreat方法中加timer.schedule(task,0,3000);
+   最后在oncreat方法中加timer.schedule(task,0,3000);
 
 # LoRaTest
 LoRa Project
