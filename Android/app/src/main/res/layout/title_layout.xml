@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/body_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+    <FrameLayout
+        android:id="@+id/body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="45dp" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/main_bg" >
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:src="@drawable/trash"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/btn_return"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:src="@drawable/left"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:text="刷新"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:textColor="@color/color_blue" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:textSize="16sp"
+            android:textColor="@color/color_blue"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/deleteall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:text="删除"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:textColor="@color/color_blue"/>
+
+        <ImageButton
+            android:id="@+id/btn_add_device"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            android:src="@drawable/add_btn_white_pre"
+            android:visibility="gone" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="#e5e5e5" />
+    </RelativeLayout>
+
+</FrameLayout>

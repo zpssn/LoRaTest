@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/ip_address"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/main_ip"
+        android:layout_marginTop="30dp"
+        android:hint = "请输入IP地址"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/main_ip"
+        android:textSize="20dp"
+        android:text="@string/chose_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/choose_type"
+        android:layout_below="@+id/main_ip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/go_test"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirm"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:background="@mipmap/confirm_bg"
+        android:layout_width="175dp"
+        android:layout_height="50dp" />
+</RelativeLayout>

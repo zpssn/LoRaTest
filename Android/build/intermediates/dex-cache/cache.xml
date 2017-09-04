@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kiss/Downloads/LoRaTest/Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kiss/Downloads/LoRaTest/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5c3aa9b43fbd1158212dd5c8513cdad9e6a26d98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kiss/Downloads/LoRaTest/Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19c496503e928de50af8b2231a3f5d0946a0067b">
+        <dex dex="/Users/kiss/Downloads/LoRaTest/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ea2d1450d2dacba872f250d6e5bdbe12d0ccdcb2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kiss/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/kiss/Downloads/LoRaTest/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_fdba98b648b6622f055e247e1789caefc676a7d9/classes.dex" />
+    </item>
+
+</items>

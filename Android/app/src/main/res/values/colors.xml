@@ -6,4 +6,22 @@
     <color name="light_blue">#33b5e5</color>
     <color name="transparent">#00000000</color>
 	<color name="textdec">#f18c14</color>
+    <color name="color_black">#333333</color>
+    <color name="color_gray">#63686c</color>
+    <color name="color_air_bad">#ff7278</color>
+    <color name="color_air_normal">#ae47ff</color>
+    <color name="color_air_good">#4eb7ff</color>
+    <color name="color_air_best">#5aad0c</color>
+    <color name="color_standby">#3b4a59</color>
+    <color name="green_360">#ff5fb900</color>
+    <color name="color_filter_text">#5aad0c</color>
+    <color name="color_filter_warn_text">#ff555c</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="color_black_gray">#666666</color>
+    <color name="color_blue">#029bf3</color>
+    <color name="color_blue_text">#007aff</color>
 </resources>

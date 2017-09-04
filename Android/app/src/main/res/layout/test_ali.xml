@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Network_connect"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/network_connect"
+            android:background="#fff"
+            android:layout_width="20dp"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/test"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/test"
+            android:background="#fff"
+            android:layout_width="20dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/all_list_num"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/list_all_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/out_line"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/out_line"
+            android:background="#fff"
+            android:layout_width="20dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/device_list"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</RelativeLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">LoRaTest</string>
+    <string name="app_name">AliTest</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="signal_strength">信号强度</string>
@@ -11,8 +11,15 @@
     <string name="connect">连接</string>
     <string name="disconnect">进入网关</string>
     <string name="cancel">取消</string>
-    
+    <string name="confirm">确认</string>
     <string name="conn_status">连接状态</string>
-    <string name="ip_address">IP地址</string>
-
+    <string name="ip_address">IP地址:</string>
+    <string name="chose_type">设备类型:</string>
+    <string name="check_wifi">请确认是否连接WIFI：Ali-Test</string>
+    <string name="go_set">去设置</string>
+    <string name="go_ok">确认已连接</string>
+    <string name="network_connect">设备配网</string>
+    <string name="test">设备测试</string>
+    <string name="out_line">设备退网</string>
+    <string name="list_all_num">当前列表共有</string>
 </resources>

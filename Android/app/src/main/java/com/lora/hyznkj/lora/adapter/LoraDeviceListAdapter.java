@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.lora.hyznkj.lora.DeviceListActivity;
+import com.lora.hyznkj.lora.activity.DeviceListActivity;
 import com.lora.hyznkj.lora.R;
 
 

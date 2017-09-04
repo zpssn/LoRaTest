@@ -2,7 +2,6 @@ package com.lora.hyznkj.lora.view;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.graphics.Point;
 import android.net.wifi.ScanResult;
 import android.os.Bundle;
@@ -21,7 +20,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.lora.hyznkj.lora.MainActivity;
 import com.lora.hyznkj.lora.R;
 import com.lora.hyznkj.lora.util.WifiAdmin;
 import com.lora.hyznkj.lora.util.WifiConnect.WifiCipherType;

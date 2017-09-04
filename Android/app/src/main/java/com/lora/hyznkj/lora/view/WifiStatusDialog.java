@@ -12,9 +12,8 @@ import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.lora.hyznkj.lora.ConnectingSocket;
 import com.lora.hyznkj.lora.R;
-import com.lora.hyznkj.lora.TestActivity;
+import com.lora.hyznkj.lora.activity.TestActivity;
 import com.lora.hyznkj.lora.util.WifiAdmin;
 
 /**
